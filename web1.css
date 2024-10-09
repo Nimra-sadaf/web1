@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+.nm img{
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+.alp{
+    display: none;
+}
+.nm h1{
+    font-weight: 900;
+    color: black;
+    font-size:xx-large
+}
+.zx{
+    display: flex;
+    justify-content: space-between;
+    width: 100wh;
+    height: 10vh;
+}
+.zx svg{
+    margin-top: 12px;
+}
+.zx .op svg{
+    /* margin-left:145px; */
+    margin-bottom:12px;
+}
+.op{
+    background:white;
+    border:none;
+    width: 20vw;
+    justify-content: end;
+}
+nav ol{
+    display: none;
+}
+.nm p{
+    font-size: small;
+    color: grey;
+    padding-top:10px
+}
+.qw{
+    margin: 0;
+    background-color:hsl(5, 85%, 63%);
+    color: black;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    border: none;
+}
+.f{
+    background-color: hsl(240, 100%, 5%);
+   padding: 10px;
+.o{
+    color:hsl(35, 77%, 62%);
+    font-size: xx-large;
+    border: none;
+    font-weight:700;
+
+}
+.q{
+    color: white;
+    font-weight: 600;
+    font-size:x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+.e{
+    color:   hsl(236, 13%, 42%); 
+    font-size: medium;
+    margin-bottom:15px
+}
+.w{
+    color: hsl(236, 13%, 42%);
+}
+body .nm img{
+    margin-bottom:12px;
+}
+.lk{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:35px;
+    margin-top:50px;
+}
+.bn{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.lk img{
+    width:150px;
+}
+.jk{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:35px;
+    margin-top:50px;
+}
+.jk img{
+    width:150px;
+}
+.mk{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:35px;
+    margin-top:50px;
+}
+.mk img{
+    width:150px;
+}
+.bn{
+    margin-top:10px;
+    margin-left:20px;
+}
+.lk img{
+    width:150px;
+}
+.bn{
+    margin-top:10px;
+    margin-left:20px;
+}
+.bn h1{
+    color:red;
+    font-size:xxx-large;
+}
+.bn h2{
+    font-weight:bold;
+    padding-bottom:10px;
+}
+.bn p{
+    color:hsl(233, 8%, 79%);
+}
+@media screen and (min-width:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .zx{
+        width: 97vw;
+        height:12vh;
+        margin-top:20px;
+    }
+    .op{
+        display:none;
+    }
+    nav ol{
+        display: flex;
+        align-items:center;
+        gap: 15px;
+        width: 60vw; 
+        justify-content:right;
+    }
+    nav ol a{
+        color:hsl(236, 13%, 42%) ;
+        font-size:x-large;
+        text-decoration:none;
+        margin-top:30px;
+        font-weight:500;
+        padding: right 20px; ;
+    }
+    nav ol a:hover{
+        cursor: pointer;
+        color:hsl(5, 85%, 63%) ;
+    }
+    .gpl{
+        display: none;
+    }
+    
+    .app{
+        display: flex;
+        gap: 2px;
+        height: 65vh;
+        width: 100vw;
+    }
+    .alp{
+        display: block;
+        width: 67vw;
+        height: 53vh;
+    }
+    .alp img{
+        width:65vw;
+        height:50vh;
+    }
+    .lap .pal{
+        display:flex;
+        gap:3px;
+        width: 35vw;
+        height:25vh ;
+    }
+    .f{
+        width:70vw;
+        height:57vh;
+        padding:20px;
+        
+    }
+    .f .q{
+        font-size:x-large;
+    }
+    .f .e{
+        font-size:medium;
+    }
+    .flx{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .pal{
+        display: flex;
+    }
+    .qw{
+        margin-top:70px;
+        margin-bottom:60px;
+        margin-right:20px;
+        padding-left:100px;
+        padding-right:100px;
+        padding-top:10px;
+        paddimg-bottom:10px;
+        width:30vw;
+        height:6vh;
+    }
+    button:hover{
+        cursor: pointer;
+        color:hsl(0, 0%, 3%);
+    }
+    .f h2:hover{
+        cursor: pointer;
+        color:hsl(35, 77%, 62%);
+    }
+    .flx h2:hover{
+        cursor: pointer;
+        color:hsl(5, 85%, 63%) ;
+    }
+}
